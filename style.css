@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+.header-wraper {
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.logo .header-img img {
+    height: 120px;
+    margin: 0 10px;
+}
+
+.logo .header-title {
+    align-content: center;
+    width: 100%;
+    margin-right: 0 10px;
+}
+.logo h1 {
+    font-size: 24px;
+    color: rgb(170, 35, 35);
+    text-shadow: rgb(231, 189, 189) 1px 0 2px;
+}
+
+#nav {
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul li {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+#nav ul li a {
+    display: block;
+    color: rgb(170, 35, 35);
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+}
+
+#nav ul li a:hover {
+    scale: 1.1;
+    transition: ease 0.2s;
+    border-bottom: 1px solid #c91010;
+}
+
+#nav ul li a.active {
+    scale: 1.1;
+    transition: ease 0.2s;
+    border-bottom: 1px solid #c91010;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+section p {
+    margin: 50px;
+    text-align: justify;
+}
+
+section h2 {
+    color: #c91010;
+    font-size: 38px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+#banner {
+    background-image: url(./img/hotéis-Santorini-Grécia-770x450.jpg);
+    background-color: rgb(0, 140, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 128px;
+    padding: 100px 50px;
+    height: 100%;
+}
+
+#banner h2 {
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: rgb(0, 65, 161) 1px 0 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.top-button {
+    display: inline-block;
+    padding: 2px 6px;
+    background-color: rgb(170, 35, 35);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.top-button:hover {
+    background-color: #c91010;
+}
+
+footer {
+    text-align: center;
+}
